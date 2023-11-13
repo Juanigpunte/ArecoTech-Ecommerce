@@ -1,7 +1,7 @@
 /*---------------------------- MIS PRODUCTOS ----------------------------*/
 
 // Productos almacenados en archivo JSON
-const url = "./../js/productos.json";
+const url = "https://juanigpunte.github.io/Coder/js/productos.json";
 
 fetch(url)
   .then(response => response.json())
