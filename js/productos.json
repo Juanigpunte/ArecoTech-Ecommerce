@@ -52,7 +52,7 @@
         {
             "id": 6,
             "nombre": "RTX 3060 MSI VENTUS",
-            "price": "450",
+            "price": "400",
             "categoria": "graficas",
             "thumbnail": "../images/Placa_de_Video_ASUS_GeForce_RTX_3060_TI_8GB_GDDR6_TUF_GAMING_OC_V2_6be149e2-grn.jpg",
             "cantidad": 1
@@ -60,7 +60,7 @@
         {
             "id": 7,
             "nombre": "RTX 4070 ASUS DUAL",
-            "price": "450",
+            "price": "470",
             "categoria": "graficas",
             "thumbnail": "../images/ASUS_GeForce_RTX_4070_12GB_GDDR6X_Dual_White_OC_faa85c69-grn.jpg",
             "cantidad": 1
