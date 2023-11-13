@@ -1,0 +1,112 @@
+#offcanvasNavbar {
+    --bs-offcanvas-width: 700px;
+
+    body.dark & {
+        --bs-offcanvas-border-color:rgb(255 255 255 / 18%);  }
+}
+
+.offcanvas-header {
+    height: 50px;
+}
+
+.offcanvas-body {
+    background-color: #ffffff23;
+
+    
+}
+
+#cartPrice {
+    font-size: 20px;
+}
+
+nav div a img {
+    object-fit: cover;
+    width: 100px;
+    height: 70px;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+
+nav div a {
+    font-size: 26px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.2s;
+
+    &:hover {
+        color: rgb(158, 105, 0);
+    }
+
+    body.dark & {
+        color: aliceblue;
+
+    }
+}
+
+.offcanvas-title {
+    color: black;
+    body.dark & {
+
+        color: aliceblue;
+    }
+}
+.navbar {
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.29);
+
+}
+
+.navcolor {
+
+    body.dark & {
+
+        background-color: #212121;
+    }
+}
+
+
+.bg-custom {
+    background-color: rgb(252, 217, 64);
+    body.dark & {
+        background-color: #333333;
+
+    }
+}
+
+.navbar-toggler {
+
+    body.dark & {
+        border: aliceblue solid 1px;
+
+    }
+
+    &:focus:not(:focus-visible) {
+       outline: 0px;
+    }
+}
+
+
+.bi-cart {
+    height: 30px;
+    width: 30px;
+
+    body.dark & {
+        color: aliceblue;
+    }
+}
+
+.bi-trash3-fill {
+    color: red;
+    width: 30px;
+    height: 30px;
+
+    &:hover {
+        color: rgb(138, 27, 27);
+
+    }
+}

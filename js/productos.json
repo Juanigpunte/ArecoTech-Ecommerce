@@ -1,0 +1,101 @@
+{
+    "productos":[
+        {
+            "id": 0,
+            "nombre": "Gigabyte B450M ds3h v2",
+            "price": "153",
+            "categoria": "motherboards",
+            "thumbnail": "../images/Mother_Gigabyte_B450M_DS3H_V2_DDR4_AM4_22c8d45a-grn.jpg",
+            "cantidad": 1
+
+        },
+        {
+            "id": 1,
+            "nombre": "MSI H510M PRO-E LGA 1200",
+            "price": "165",
+            "categoria": "motherboards",
+            "thumbnail": "../images/Mother_MSI_H510M_PRO-E_DDR4_LGA_1200_89a861ba-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 2,
+            "nombre": "MSI X670-P PRO WIFI",
+            "price": "200",
+            "categoria": "motherboards",
+            "thumbnail": "../images/Mother_MSI_X670-P_PRO_WIFI_AM5_be20ca6c-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 3,
+            "nombre": "AMD Ryzen 5 5600x",
+            "price": "252",
+            "categoria": "procesadores",
+            "thumbnail": "../images/AMD_Ryzen_5_5600X_4.6GHz_Turbo_AM4___Wraith_Stealth_Cooler_f737ec9f-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 4,
+            "nombre": "AMD Ryzen 7 5800x",
+            "price": "290",
+            "categoria": "procesadores",
+            "thumbnail": "../images/Procesador_AMD_Ryzen_7_7700X_5.4GHz_Turbo_AM5_-_No_incluye_Cooler_-_C_VIDEO_5db10196-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 5,
+            "nombre": "Intel i7 11700KF 11Th",
+            "price": "340",
+            "categoria": "procesadores",
+            "thumbnail": "../images/Intel_Core_i7_11700KF_5.0GHz_Turbo_Socket_1200_Rocket_Lake_56a482fd-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 6,
+            "nombre": "RTX 3060 MSI VENTUS",
+            "price": "450",
+            "categoria": "graficas",
+            "thumbnail": "../images/Placa_de_Video_ASUS_GeForce_RTX_3060_TI_8GB_GDDR6_TUF_GAMING_OC_V2_6be149e2-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 7,
+            "nombre": "RTX 4070 ASUS DUAL",
+            "price": "450",
+            "categoria": "graficas",
+            "thumbnail": "../images/ASUS_GeForce_RTX_4070_12GB_GDDR6X_Dual_White_OC_faa85c69-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 8,
+            "nombre": "RX 6750 XT XFX QICK + STARFIELD",
+            "price": "600",
+            "categoria": "graficas",
+            "thumbnail": "../images/Placa_de_Video_XFX_Radeon_RX_6750_XT_ULTRA_12GB_GDDR6_Speedster_03492b8c-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 9,
+            "nombre": "Be Quiet! 600W 80 Plus Bronze U9",
+            "price": "70",
+            "categoria": "fuentes",
+            "thumbnail": "../images/Fuente_Be_Quiet__600W_80_Plus_Bronze_U9_06c10bd9-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 10,
+            "nombre": "ASUS ROG 1000W 80 Plus Gold",
+            "price": "160",
+            "categoria": "fuentes",
+            "thumbnail": "../images/Fuente_ASUS_ROG_STRIX_1000W_80_Plus_Gold_Full_Modular_1000G_8c2a799c-grn.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 11,
+            "nombre": "Gigabyte 450W 80 Plus Bronze",
+            "price": "60",
+            "categoria": "fuentes",
+            "thumbnail": "../images/Fuente_Gigabyte_450W_80_Plus_Bronze_P450B_800859dd-grn.jpg",
+            "cantidad": 1
+        }
+    ]
+}

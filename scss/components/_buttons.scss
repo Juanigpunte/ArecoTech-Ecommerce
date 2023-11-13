@@ -1,0 +1,182 @@
+.button {
+    border-radius: 18px;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    background-color: #f1f1f1;
+    overflow: hidden;
+
+    &:hover {
+        background: rgb(255, 255, 255)
+    }
+
+    &:active {
+        border: 1px solid #c9c4c4;
+    }
+
+    body.dark & {
+        background-color: aliceblue;
+
+    }
+
+
+}
+
+.button,
+.button__icon,
+.button__text {
+    transition: all 0.3s;
+}
+
+.button .button__text {
+    transform: translateX(22px);
+    color: #000000;
+    font-weight: 600;
+}
+
+.button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #dad8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    body.dark & {
+        background-color: rgb(151, 166, 179);
+
+    }
+
+}
+
+.btn-close {
+    body.dark & {
+        color: aliceblue!important;
+    }
+}
+
+.button .svg {
+    width: 20px;
+    fill: #fff;
+}
+
+.button:hover .button__text {
+    color: transparent;
+}
+
+.button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+}
+
+.button:active .button__icon {
+    background-color: #ebe8e8;
+}
+
+
+.filter-container {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.filter-button {
+    width: 210px;
+    height: 50px;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+
+        &:hover {
+            border: 1px solid white;
+        }
+        
+        &:active {
+            border: 1px solid white;
+            box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+        }
+
+
+        body.dark & {
+            border: 1px solid #212121;
+            background: #212121;
+            color: aliceblue;
+            box-shadow: 10px 10px 25px rgb(25, 25, 25),
+            -10px -10px 25px rgb(60, 60, 60);
+            &:active{
+
+            border: 1px solid #000000;}
+            &:hover{
+            border: 1px solid rgb(0, 0, 0);}
+        }
+
+}
+
+
+#boton {
+    font-weight: 600;
+}
+
+.theme-checkbox {
+    --toggle-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 6.25em;
+    height: 3.125em;
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #e0e0e0)) no-repeat;
+    background: -o-linear-gradient(left, #efefef 50%, #e0e0e0 50%) no-repeat;
+    background: linear-gradient(to right, #efefef 50%, #e0e0e0 50%) no-repeat;
+    background-size: 205%;
+    background-position: 0;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 99em;
+    position: relative;
+    cursor: pointer;
+    font-size: var(--toggle-size);
+  }
+  
+  .theme-checkbox::before {
+    content: "";
+    width: 2.25em;
+    height: 2.25em;
+    position: absolute;
+    top: 0.438em;
+    left: 0.438em;
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #e0e0e0)) no-repeat;
+    background: -o-linear-gradient(left, #efefef 50%, #e0e0e0 50%) no-repeat;
+    background: linear-gradient(to right, #efefef 50%, #e0e0e0 50%) no-repeat;
+    background-size: 205%;
+    background-position: 100%;
+    border-radius: 50%;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .theme-checkbox:checked::before {
+    left: calc(100% - 2.25em - 0.438em);
+    background-position: 0;
+  }
+  
+  .theme-checkbox:checked {
+    background-position: 100%;
+  }
