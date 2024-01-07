@@ -29,7 +29,14 @@ nav div a img {
         transform: scale(1.1, 1.1);
     }
 }
+.btn-close{
 
+    body.dark & {
+        filter: var(--bs-btn-close-white-filter);
+        --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%)!important;
+
+    }
+}
 
 nav div a {
     font-size: 26px;
@@ -40,11 +47,18 @@ nav div a {
     transition: 0.2s;
 
     &:hover {
-        color: rgb(158, 105, 0);
+        color: rgb(165, 145, 30);
+        text-decoration: solid;
     }
 
     body.dark & {
         color: aliceblue;
+
+        &:hover{
+            color: rgb(255, 255, 255);
+            text-shadow: 5px 5px 20px #bebebe,
+            -5px -5px 20px #ffffff;
+        }
 
     }
 }
@@ -62,6 +76,7 @@ nav div a {
 }
 
 .navcolor {
+    padding: 20px;
 
     body.dark & {
 
@@ -82,6 +97,11 @@ nav div a {
 
     body.dark & {
         border: aliceblue solid 1px;
+
+        &:hover {
+            box-shadow: 2px 2px 15px #bebebe,
+            -2px -2px 15px #ffffff;
+        }
 
     }
 

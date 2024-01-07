@@ -1,56 +1,96 @@
   /* CARRITO */
 
   .cart-container {
-      border-radius: 30px;
-      box-shadow: 20px 20px 60px #bebebe,
-          -20px -20px 60px #ffffff;
-      align-items: center;
-    
-      display: flex;
-      flex-direction: row;
-      gap: 80px;
-      height: 200px;
-      justify-content: space-around;
-      padding: 28px;
-      background: #e0e0e0;
-      margin-bottom: 20px;
-
-      img {
-          object-fit: cover;
-          width: 210PX;
-          height: 180px;
-          border-radius: 30px;
-      }
-
-      body.dark & {
-        height: 200px;
-        width: 100%;
-        border-radius: 30px;
-        background: #212121;
-        box-shadow: 10px 10px 25px rgb(25, 25, 25),
-          -10px -10px 25px rgb(60, 60, 60);
-
-          h2 , p {
-            color: aliceblue;
-          }
-      }
-
-  }
-
-
-  #root {
-      height: 100%;
-
-      div h2 {
-          font-size: 28px;
-      }
-  }
-
-  .store-header {
-    flex-direction: row;
+    border-radius: 30px;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    align-items: center;
+  
     display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
-    align-items: flex-end;
+    flex-direction: row;
+    gap: 80px;
+    height: 160px;
+    justify-content: space-around;
+    padding: 28px;
+    background: #e0e0e0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+    img {
+        object-fit: cover;
+        width: 210PX;
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    body.dark & {
+      height: 200px;
+      width: 100%;
+      border-radius: 30px;
+      background: #212121;
+      box-shadow: 10px 10px 25px rgb(25, 25, 25),
+        -10px -10px 25px rgb(60, 60, 60);
+
+        h2 , p {
+          color: aliceblue;
+        }
+    }
+
+    button {
+      border-radius: 15px;
+      background-color: aliceblue;
+    }
+
+}
+
+
+#root {
+    height: 100%;
+
+    div h2 {
+        font-size: 22px;
+    }
+}
+
+.store-header {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  align-items: flex-end;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 920px) {
+
+  .cart-container {
+    gap: 0px;
+    height: 150px;
+    padding: 0px;
+
+
+    img {
+        width: 210PX;
+        height: 140px;
+        margin-left: 3px;
+    }
+
+}
+.card-body{
+  margin-left: 5px;
+
+  h2{
+    font-size: 20px;
   }
+}
+
+.filter-button {
+  width: 90%;
+}
+
+.filter-container {
+  justify-content: normal;
+}
+
+
+}

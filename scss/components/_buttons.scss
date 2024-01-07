@@ -57,7 +57,7 @@
 
 .btn-close {
     body.dark & {
-        color: aliceblue!important;
+        color: aliceblue !important;
     }
 }
 
@@ -83,10 +83,11 @@
 .filter-container {
     display: flex;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 20px;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .filter-button {
@@ -102,29 +103,35 @@
     box-shadow: 6px 6px 12px #c5c5c5,
         -6px -6px 12px #ffffff;
 
-        &:hover {
-            border: 1px solid white;
-        }
-        
-        &:active {
-            border: 1px solid white;
-            box-shadow: 4px 4px 12px #c5c5c5,
-                -4px -4px 12px #ffffff;
-        }
+    &:hover {
+        border: 1px solid #212121;
+    }
+
+    &:active {
+        border: 1px solid white;
+        box-shadow: 4px 4px 12px #c5c5c5,
+            -4px -4px 12px #ffffff;
+    }
 
 
-        body.dark & {
-            border: 1px solid #212121;
-            background: #212121;
-            color: aliceblue;
-            box-shadow: 10px 10px 25px rgb(25, 25, 25),
+    body.dark & {
+        border: 1px solid #212121;
+        background: #212121;
+        color: aliceblue;
+        box-shadow: 10px 10px 25px rgb(25, 25, 25),
             -10px -10px 25px rgb(60, 60, 60);
-            &:active{
 
-            border: 1px solid #000000;}
-            &:hover{
-            border: 1px solid rgb(0, 0, 0);}
+        &:active {
+            border: 1px solid #f7f9fa;
+            box-shadow: 4px 4px 12px #212121,
+                -4px -4px 12px #212121;
         }
+
+        &:hover {
+            border: 1px solid #f4c21c;
+        }
+
+    }
 
 }
 
@@ -134,7 +141,7 @@
 }
 
 .theme-checkbox {
-    --toggle-size: 16px;
+    --toggle-size: 12px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -152,9 +159,9 @@
     position: relative;
     cursor: pointer;
     font-size: var(--toggle-size);
-  }
-  
-  .theme-checkbox::before {
+}
+
+.theme-checkbox::before {
     content: "";
     width: 2.25em;
     height: 2.25em;
@@ -170,13 +177,13 @@
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
-  }
-  
-  .theme-checkbox:checked::before {
+}
+
+.theme-checkbox:checked::before {
     left: calc(100% - 2.25em - 0.438em);
     background-position: 0;
-  }
-  
-  .theme-checkbox:checked {
+}
+
+.theme-checkbox:checked {
     background-position: 100%;
-  }
+}
