@@ -43,7 +43,6 @@ nav div a {
     list-style: none;
     text-decoration: none;
     color: black;
-    font-weight: 600;
     transition: 0.2s;
 
     &:hover {
@@ -61,6 +60,15 @@ nav div a {
         }
 
     }
+}
+.pl {
+    margin-left: 30px;
+}
+
+.pr {
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
 }
 
 .offcanvas-title {

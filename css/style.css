@@ -372,7 +372,6 @@ nav div a {
   list-style: none;
   text-decoration: none;
   color: black;
-  font-weight: 600;
   transition: 0.2s;
 }
 nav div a:hover {
@@ -385,6 +384,16 @@ body.dark nav div a {
 body.dark nav div a:hover {
   color: rgb(255, 255, 255);
   text-shadow: 5px 5px 20px #bebebe, -5px -5px 20px #ffffff;
+}
+
+.pl {
+  margin-left: 30px;
+}
+
+.pr {
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
 }
 
 .offcanvas-title {
@@ -735,7 +744,7 @@ body.dark .cart-container h2, body.dark .cart-container p {
   width: 100%;
   height: auto;
   background-color: rgba(207, 207, 207, 0.2470588235);
-  margin-top: 90px;
+  margin-top: 85px;
 }
 
 .text-darkmode {
