@@ -7,6 +7,7 @@
   height: auto;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 55px;
 }
 
 .card {
@@ -23,14 +24,15 @@
 }
 
 .card-content {
+  position: relative;
   margin-top: 38px;
   flex-direction: column;
-  height: auto;
+  height: 400px;
   width: 230px;
   padding: 20px;
   display: flex;
   background: #e0e0e0;
-  border-radius: 30px;
+  border-radius: 0.5rem;
   box-shadow: 20px 20px 60px #bebebe,
     -20px -20px 60px #ffffff;
 
@@ -48,7 +50,7 @@
 
   img {
     align-items: center;
-    border-radius: 15px;
+    border-radius: 0.5rem;
     width: 100%;
     object-fit: cover;
     height: auto;

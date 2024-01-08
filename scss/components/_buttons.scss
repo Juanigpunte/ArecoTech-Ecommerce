@@ -1,6 +1,5 @@
 .button {
-    border-radius: 18px;
-    position: relative;
+    border-radius: 0.5rem;
     width: 150px;
     height: 40px;
     cursor: pointer;
@@ -9,6 +8,7 @@
     border: 1px solid #000000;
     background-color: #f1f1f1;
     overflow: hidden;
+
 
     &:hover {
         background: rgb(255, 255, 255)
@@ -29,10 +29,13 @@
 .button,
 .button__icon,
 .button__text {
+    bottom: 7px;
+    position: absolute;
     transition: all 0.3s;
 }
 
 .button .button__text {
+
     transform: translateX(22px);
     color: #000000;
     font-weight: 600;
@@ -47,6 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    bottom: 0px;
 
     body.dark & {
         background-color: rgb(151, 166, 179);
@@ -62,6 +66,8 @@
 }
 
 .button .svg {
+    position: absolute;
+    bottom: 8px;
     width: 20px;
     fill: #fff;
 }

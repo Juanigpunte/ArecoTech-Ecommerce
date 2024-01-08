@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     gap: 80px;
-    height: 160px;
+    height: 200px;
     justify-content: space-around;
     padding: 28px;
     background: #e0e0e0;
@@ -56,10 +56,29 @@
   flex-direction: row;
   display: flex;
   justify-content: space-between;
-  margin-top: 70px;
   align-items: flex-end;
 
 }
+
+.toggle-bar {
+  align-items: flex-end;
+  gap: 25px;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: #cfcfcf3f;
+  margin-top: 90px;
+}
+.text-darkmode {
+  margin-top: 10px;
+  color: black;
+
+    body.dark & {
+    color: aliceblue;
+    }
+}
+
 
 @media only screen and (min-width: 300px) and (max-width: 920px) {
 
@@ -90,6 +109,10 @@
 
 .filter-container {
   justify-content: normal;
+}
+
+.toggle-bar {
+  justify-content: center;
 }
 
 
