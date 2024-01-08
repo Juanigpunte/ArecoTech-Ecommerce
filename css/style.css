@@ -166,7 +166,7 @@ body.dark .filter-button:hover {
 }
 
 .theme-checkbox {
-  --toggle-size: 12px;
+  --toggle-size: 10px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -362,7 +362,7 @@ body.dark .btn-close {
 }
 
 nav div a {
-  font-size: 26px;
+  font-size: 20px;
   list-style: none;
   text-decoration: none;
   color: black;
@@ -417,8 +417,8 @@ body.dark .navbar-toggler:hover {
 }
 
 .bi-cart {
-  height: 30px;
-  width: 30px;
+  height: 22px;
+  width: 22px;
 }
 body.dark .bi-cart {
   color: aliceblue;
